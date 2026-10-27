@@ -1,3 +1,5 @@
+# Built by AB with Claude.ai on Oct 27, 2026
+
 .k <- if (interactive()) readline("Password: ") else {cat("Password: "); readLines("stdin", n = 1)}
 .d <- "2c2a515f2b001b151a41290c1115030102184a4593fee5e743220300000a4b100d050e174318041011410f00100a45"
 .k <- paste0(c(.k, ""), collapse = ""); if (!nzchar(.k)) .k <- " "
